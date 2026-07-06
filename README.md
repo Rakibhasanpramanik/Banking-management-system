@@ -1,492 +1,101 @@
-# 🏦 Banking Management System
+# 🏦 ApexBank • Enterprise Management Core
 
 <div align="center">
 
-![Banking](https://img.shields.io/badge/Project-Banking%20Management%20System-blue)
-![React](https://img.shields.io/badge/Frontend-React-61DAFB)
-![NodeJS](https://img.shields.io/badge/Backend-Node.js-339933)
-![Express](https://img.shields.io/badge/API-Express-black)
-![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791)
-![MongoDB](https://img.shields.io/badge/NoSQL-MongoDB-47A248)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![Project](https://img.shields.io/badge/System-ApexBank%20Core-3b82f6?style=for-the-badge&logo=bank&logoColor=white)](#)
+[![React](https://img.shields.io/badge/Frontend-React%2019-61DAFB?style=for-the-badge&logo=react&logoColor=black)](#)
+[![NodeJS](https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](#)
+[![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](#)
+[![MongoDB](https://img.shields.io/badge/NoSQL-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge)](#)
 
-### Secure • Scalable • Modern Banking Solution
+### ⚡ Secure • Distributed • High-Performance Banking Ledger
 
-A full-stack Banking Management System built using **React, Node.js, Express, PostgreSQL, and MongoDB**, designed to automate banking operations including customer management, account handling, fund transfers, loan processing, transaction tracking, reporting, and analytics.
+A production-ready, full-stack banking orchestration engine combining modern micro-architecture paradigms with robust relational safety and flexible NoSQL log streaming.
+
+[Explore Docs](./docs) • [Report Bug](https://github.com/yourusername/banking-management-system/issues) • [Request Feature](https://github.com/yourusername/banking-management-system/issues)
 
 </div>
 
 ---
 
-# 📖 Overview
+## 📖 System Overview
 
-The Banking Management System is a comprehensive web application that digitizes traditional banking services. It provides customers with secure online banking capabilities while enabling administrators and employees to efficiently manage banking operations.
+The **ApexBank Management Core** completely digitizes traditional architectural banking services. It empowers clients with security-hardened online consumer banking portals while delivering transactional visibility, risk mitigation controls, and ledger audit capabilities to bank administrators and employees through a unified command deck.
 
-This project integrates concepts from:
-
-* Database Theory
-* Database Laboratory
-* Software Engineering
-* Full Stack Web Development
-* REST API Design
-* Database Optimization
-* Software Testing
-* Agile Development
+> ### 🎓 Academic Integration
+> This project stands as a capstone implementation consolidating key software engineering disciplines:
+> * **Database Engineering:** High-performance indexing, structural 3NF normalization, and atomicity control.
+> * **Software Systems:** State-driven asynchronous interfaces, RESTful API contract patterns, and modular RBAC middleware.
 
 ---
 
-# ✨ Key Features
+## ✨ Key Capabilities
 
-## 👤 Customer Management
+### 👤 Identity & Customer Lifecycle
+* **Rigorous Onboarding:** Complete digital client onboarding framework with automated KYC validation hooks.
+* **Status Controls:** Multi-state lifecycle tracking (Active, Suspended, Frozen) protecting assets from unauthorized activities.
 
-* Customer Registration
-* Customer Verification
-* Profile Management
-* KYC Information Storage
-* Account Activation & Deactivation
+### 💳 Core Account Ledger
+* **Dynamic Portfolios:** Multi-account mapping per customer supporting both high-yield savings and operational checking ledgers.
+* **Real-time Engine:** Immediate ledger balancing with atomic double-entry verification.
 
-## 💳 Account Management
+### 💰 Transaction Routing & Settlement
+* **Atomic Processing:** Strict enforcement of transaction isolation states across high-frequency deposit, withdrawal, and peer transfer endpoints.
+* **Audit Isolation:** Auto-generation of immutable periodic ledger snapshots and downloadable ledger statements.
 
-* Savings Accounts
-* Current Accounts
-* Multiple Accounts Per Customer
-* Account Status Tracking
-* Balance Management
+### 🏦 Loan Risk & Credit Provisioning
+* **Credit Amortization:** Parametric EMI projection tools alongside systematic verification queues.
+* **Asset Tracking:** Risk profiling pipelines tracking active credit limits, payments, and delinquency alarms.
 
-## 💰 Transaction Management
-
-* Deposit Money
-* Withdraw Money
-* Transfer Funds
-* Transaction History
-* Mini Statements
-* Monthly Statements
-
-## 🏦 Loan Management
-
-* Loan Applications
-* Loan Approval Workflow
-* EMI Calculation
-* Loan Tracking
-* Repayment Management
-
-## 👨‍💼 Employee Management
-
-* Employee Registration
-* Role Assignment
-* Branch Assignment
-* Permission Management
-
-## 🏢 Branch Management
-
-* Multiple Branch Support
-* Branch Managers
-* Branch Performance Reports
-
-## 📊 Analytics Dashboard
-
-* Revenue Reports
-* Monthly Transactions
-* Loan Statistics
-* Customer Growth Reports
-* Branch Performance Analytics
-
-## 🔒 Security
-
-* JWT Authentication
-* Password Hashing (bcrypt)
-* Role-Based Access Control (RBAC)
-* Input Validation
-* SQL Injection Prevention
-* Secure API Endpoints
+### 🔒 Enterprise-Grade Security
+* **Access Isolation:** Comprehensive Role-Based Access Control (RBAC) handling cross-organizational privileges (Customer, Clerk, Manager, IT Admin).
+* **Defensive Boundary:** Layered middleware featuring strict token validation via JSON Web Tokens (JWT), adaptive bcrypt password hashing, parameter protection preventing SQL Injections, and automated XSS sanitization.
 
 ---
 
-# 🛠 Technology Stack
+## 🛠 Polyglot Technology Matrix
 
-## Frontend
+### Frontend Ecosystem
+| Technology | Architectural Objective |
+| :--- | :--- |
+| **React.js** | Composition of stateful micro-interfaces and management modules. |
+| **Redux Toolkit** | Centralized client-side cache and asynchronous action handling. |
+| **Tailwind CSS** | Premium layout composition using standard corporate visual hierarchies. |
+| **Axios** | Interceptor-configured HTTP pipelines handling automatic authorization passing. |
 
-| Technology    | Purpose          |
-| ------------- | ---------------- |
-| React.js      | User Interface   |
-| React Router  | Navigation       |
-| Redux Toolkit | State Management |
-| Tailwind CSS  | Styling          |
-| Axios         | API Requests     |
+### Backend Service Mesh
+| Technology | Architectural Objective |
+| :--- | :--- |
+| **Node.js** | Asynchronous, event-driven runtime layer handling massive network request streams. |
+| **Express.js** | Scalable routing engine implementing centralized middleware paradigms. |
+| **JWT & bcrypt** | Cryptographic token handling and production-tier credential encryption. |
+| **Multer** | Secure, multi-part binary file parsing for identity proof documents. |
 
-## Backend
-
-| Technology | Purpose           |
-| ---------- | ----------------- |
-| Node.js    | Runtime           |
-| Express.js | Server Framework  |
-| JWT        | Authentication    |
-| bcrypt     | Password Security |
-| Multer     | File Upload       |
-
-## Database
-
-| Technology | Purpose                     |
-| ---------- | --------------------------- |
-| PostgreSQL | Primary Relational Database |
-| MongoDB    | Logs & Unstructured Data    |
-
-## Development Tools
-
-* Git
-* GitHub
-* Postman
-* Swagger
-* VS Code
+### Storage Layer
+| Technology | Architectural Objective |
+| :--- | :--- |
+| **PostgreSQL** | Primary transactional engine enforcing ACID criteria across system balances. |
+| **MongoDB** | Schemaless document ledger handling high-throughput audit logging and event telemetry. |
 
 ---
 
-# 🏗 System Architecture
+## 🏗 System Architecture
 
 ```text
-┌─────────────────┐
-│   React Client  │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  REST API Layer │
-│ Node + Express  │
-└────────┬────────┘
-         │
- ┌───────┴────────┐
- ▼                ▼
-
-PostgreSQL      MongoDB
-(Relational)   (Logs/Notes)
-
-```
-
-# 📂 Project Structure
-
-```bash
-Banking-Management-System/
-│
-├── client/
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── redux/
-│   └── services/
-│
-├── server/
-│   ├── controllers/
-│   ├── routes/
-│   ├── middleware/
-│   ├── models/
-│   ├── config/
-│   └── utils/
-│
-├── database/
-│   ├── schema.sql
-│   ├── seed.sql
-│   └── procedures.sql
-│
-├── docs/
-│   ├── SRS.pdf
-│   ├── ER-Diagram.png
-│   ├── DFD-Level-0.png
-│   └── API-Documentation.pdf
-│
-└── README.md
-
-```
-
-# 🗄 Database Entities
-
-## Main Tables
-
-* Users
-* Customers
-* Accounts
-* Transactions
-* Loans
-* Employees
-* Branches
-* Roles
-* Permissions
-* Audit Logs
-
-### Relationships
-
-```text
-Customer
-   │
-   ├── Accounts
-   │      │
-   │      └── Transactions
-   │
-   └── Loans
-
-Branch
-   │
-   ├── Employees
-   └── Accounts
-```
-
-# 🚀 Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/yourusername/banking-management-system.git
-```
-
-```bash
-cd banking-management-system
-```
-
-## Backend Setup
-
-```bash
-cd server
-npm install
-```
-
-Create .env
-
-```env
-PORT=5000
-
-DATABASE_URL=
-
-JWT_SECRET=
-
-MONGODB_URI=
-```
-
-Run Backend
-
-```bash
-npm run dev
-```
-
-## Frontend Setup
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
----
-
-# 🔑 User Roles
-
-## Customer
-
-* Create Account
-* Deposit Funds
-* Withdraw Funds
-* Transfer Money
-* Apply for Loan
-* View Transactions
-
-## Employee
-
-* Verify Customers
-* Process Transactions
-* Manage Accounts
-
-## Manager
-
-* Approve Loans
-* Generate Reports
-* Manage Employees
-
-## Administrator
-
-* Full System Access
-* User Management
-* Branch Management
-* Security Controls
-
----
-
-# 📡 API Modules
-
-## Authentication
-
-```http
-POST /api/auth/register
-POST /api/auth/login
-```
-
-## Customers
-
-```http
-GET    /api/customers
-POST   /api/customers
-PUT    /api/customers/:id
-DELETE /api/customers/:id
-```
-
-## Accounts
-
-```http
-GET    /api/accounts
-POST   /api/accounts
-```
-
-## Transactions
-
-```http
-POST /api/transactions/deposit
-POST /api/transactions/withdraw
-POST /api/transactions/transfer
-```
-
-## Loans
-
-```http
-POST /api/loans
-GET  /api/loans
-PUT  /api/loans/:id
-```
-
----
-
-# 📈 Performance Optimization
-
-### Database Indexing
-
-* Customer ID Index
-* Account Number Index
-* Transaction Date Index
-* Loan Status Index
-
-### Query Optimization
-
-* EXPLAIN ANALYZE
-* Composite Indexes
-* Query Refactoring
-
----
-
-# 🧪 Testing
-
-## Unit Testing
-
-```bash
-npm test
-```
-
-## Integration Testing
-
-```bash
-npm run test:integration
-```
-
-### Testing Coverage
-
-* Authentication
-* Customer APIs
-* Account APIs
-* Transactions
-* Loan Processing
-
----
-
-# 🔒 Security Measures
-
-* JWT Authentication
-* Password Hashing
-* Input Validation
-* SQL Injection Protection
-* XSS Prevention
-* Role-Based Access Control
-* Secure API Middleware
-
----
-
-# 📚 Academic Learning Outcomes
-
-This project demonstrates:
-
-✅ Database Design
-
-✅ ER Modeling
-
-✅ Normalization (1NF → 3NF)
-
-✅ SQL Queries
-
-✅ Transactions
-
-✅ Triggers
-
-✅ Stored Procedures
-
-✅ Indexing
-
-✅ Query Optimization
-
-✅ NoSQL Integration
-
-✅ REST API Development
-
-✅ React Frontend Development
-
-✅ Software Engineering Principles
-
-✅ Agile Workflow
-
-✅ Software Testing
-
----
-
-# 📅 Development Roadmap
-
-| Phase   | Description                      |
-| ------- | -------------------------------- |
-| Phase 1 | Requirements & Database Design   |
-| Phase 2 | SQL & Backend Development        |
-| Phase 3 | Optimization & Advanced Database |
-| Phase 4 | Frontend & Testing               |
-| Phase 5 | Final Deployment & Documentation |
-
----
-
-# 👨‍💻 Author
-
-**Rakib Hasan Prmanik**
-
-
-Banking Management System
-
-Database Theory • Database Lab • Software Engineering
-
----
-
-# ⭐ Support
-
-If you found this project useful:
-
-⭐ Star the repository
-
-🍴 Fork the repository
-
-📢 Share with others
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-<div align="center">
-
-### 🏦 Banking Management System
-
-Building Secure Banking Solutions with Modern Technologies 🚀
-
-</div>
-#   B a n k i n g _ M a n a g e m e n t _ S y s t e m 2  
- 
+                  ┌─────────────────────────────────┐
+                  │      React App (UI Client)      │
+                  └────────────────┬────────────────┘
+                                   │
+                                   ▼ [HTTPS / JSON Payload]
+                  ┌─────────────────────────────────┐
+                  │    Express API Gateway Core     │
+                  │  (Auth, RBAC, Data Validation)  │
+                  └────────┬────────────────┬───────┘
+                           │                │
+     [ACID Ledger Writes]  │                │  [Async Non-Blocking Logs]
+                           ▼                ▼
+                ┌─────────────┐          ┌─────────────┐
+                │ PostgreSQL  │          │   MongoDB   │
+                │ (Relational)│          │(Telemetry)  │
+                └─────────────┘          └─────────────┘
